@@ -20,8 +20,7 @@ for _ in range(s):
     
     r = int(input())
     for _ in range(r):
-        src = input()
-        dst = input()
+        src, dst = input().split()
         s_id, d_id = city_index[src], city_index[dst]
         INF = 10**12
         dist = [INF] * n
@@ -36,7 +35,7 @@ for _ in range(s):
                 break
             for edge in graph.adj[u]:
                 v = edge.To()
-                w = edge.Weight()
+                w = edge.weight
                 nd = d + w
                 if nd < dist[v]:
                     dist[v] = nd
