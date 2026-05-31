@@ -1,21 +1,27 @@
 # Trabalho Prático 2 - Unidade 3
 
-## SPOJ SHPAaTH - The Shortest Path
+## SPOJ SHPATH - The Shortest Path
 
 ### Integrantes
 
-- TIAGO
-- EVANDRO
-- BRUNO
-- EMANUEL
+- Tiago Goes
+- Evandro Nobre
+- Bruno Cavalcante
+- Emanuel Alves
+
+---
 
 ### Linguagem Utilizada
 
 Python 3
 
+---
+
 ### Link do Problema
 
 https://www.spoj.com/problems/SHPATH/
+
+---
 
 ### Descrição
 
@@ -161,4 +167,3 @@ devido ao armazenamento do grafo em listas de adjacência.
 - Existência de vários caminhos entre duas cidades;
 - Custos elevados nas arestas;
 - Grafo direcionado;
-- Grandes
